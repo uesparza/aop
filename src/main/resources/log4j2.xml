@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Properties>
+        <Property name="log-path">/logs</Property>
+        <Property name="log-name">odie_log</Property>
+        <Property name="log-pattern">[%d{yyyy-MM-dd HH:mm:ss}] %highlight{[%-6p]} %c{1}:%L: %m{nolookups}%n</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${log-pattern}" />
+        </Console>
+        <RollingFile name="RollingFile" fileName="${log-path}/${log-name}.log" filePattern="${log-path}/${log-name}-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout>
+                <Pattern>${log-pattern}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="15 KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="4"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="RollingFile" />
+        </Root>
+    </Loggers>
+</Configuration>
