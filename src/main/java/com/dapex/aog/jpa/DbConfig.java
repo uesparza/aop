@@ -13,8 +13,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 
-@Configuration
-@EnableTransactionManagement
+//@Configuration
+//@EnableTransactionManagement
 //@EnableJpaRepositories
 public class DbConfig {
 
@@ -33,7 +33,7 @@ public class DbConfig {
     private String getPassword(String password) {
         String key = System.getProperty("encryptkey");
         StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
-        encryptor.setPassword("covfefe1325");
+        encryptor.setPassword("postgres");
         return encryptor.decrypt(password);
     }
 }
