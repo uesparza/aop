@@ -48,6 +48,8 @@ public class PullAOGController extends RestResponseHeaderFactory {
                 .stream()
                 .map(this.dbPullService::instantiateAOG)
                 .collect(Collectors.toList());
+
+        aogReturnList.stream().forEach(System.out::print);
         LOGGER.info("com.dapex.aog.dto.aog.AOG Cache Instantiation Completed");
         return aogReturnList;
     }
