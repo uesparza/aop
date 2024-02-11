@@ -25,10 +25,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-/**
- * Rest controller to perform CRUD operations on an com.dapex.aog.dto.aog.AOG
- * Created by mmacpher on 12/4/18.
- */
+
 @RestController
 public class PullAOGController extends RestResponseHeaderFactory {
 

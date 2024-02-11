@@ -1,8 +1,5 @@
 package com.dapex.aog.dto;
 
-/**
- * Created by mmacpher on 12/18/18.
- */
 public class SearchInput {
 
     private String searchTerm;

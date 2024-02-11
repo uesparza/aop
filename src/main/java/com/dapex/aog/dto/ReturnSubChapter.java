@@ -5,9 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mmacpher on 12/3/18.
- */
 public class ReturnSubChapter {
 
     @JsonProperty("subChapterName")

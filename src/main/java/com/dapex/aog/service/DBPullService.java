@@ -25,12 +25,6 @@ import java.util.stream.Stream;
 
 import static com.dapex.aog.utils.ProcessingUtility.htmlToRaw;
 
-/**
- * <p>Service class to create a cached AOG from the database,
- * search and return an AOG from memory and
- * it also returns a list of AOGs with their ids</p>
- * Created by mmacpher on 12/4/18.
- */
 @Service
 @CacheConfig(cacheNames = {"AOG"})
 public class DBPullService {

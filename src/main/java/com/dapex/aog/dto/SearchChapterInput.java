@@ -2,9 +2,6 @@ package com.dapex.aog.dto;
 
 import java.util.List;
 
-/**
- * Created by mmacpher on 12/19/18.
- */
 public class SearchChapterInput {
 
     private String searchTerm;

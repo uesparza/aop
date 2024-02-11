@@ -6,9 +6,6 @@ import com.dapex.aog.jpa.domain.Attachment;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mmacpher on 12/3/18.
- */
 public class ReturnChapter {
 
     @JsonProperty("chapterName")

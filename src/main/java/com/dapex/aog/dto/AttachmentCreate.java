@@ -4,9 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.time.LocalDateTime;
 
-/**
- * Created by taddai on 2/28/19.
- */
 public class AttachmentCreate {
 
     @JsonProperty("aogId")

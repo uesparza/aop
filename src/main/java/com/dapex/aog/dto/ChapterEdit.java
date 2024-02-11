@@ -1,8 +1,5 @@
 package com.dapex.aog.dto;
 
-/**
- * Created by mmacpher on 12/21/18.
- */
 public class ChapterEdit {
 
     private Long aogId;

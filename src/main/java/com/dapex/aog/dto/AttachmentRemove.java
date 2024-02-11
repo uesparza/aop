@@ -3,9 +3,6 @@ package com.dapex.aog.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.dapex.aog.jpa.domain.Attachment;
 
-/**
- * Created by taddai on 2/28/19.
- */
 public class AttachmentRemove {
 
     @JsonProperty("aogId")

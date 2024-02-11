@@ -1,8 +1,5 @@
 package com.dapex.aog.dto;
 
-/**
- * Created by mmacpher on 12/19/18.
- */
 public class Chapters {
 
     private String chapterName;

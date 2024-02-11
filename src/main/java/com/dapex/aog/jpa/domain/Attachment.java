@@ -9,11 +9,7 @@ import java.time.LocalDateTime;
 
 //import javax.persistence.*;
 
-/**
- * Created by mmacpher on 12/3/18.
- * Updated by cbernier on 2/25/2019
- * Converted table name to CONST instead of string literal
- */
+
 
 @Entity
 @Table(name = Constants.ATTACHMENTS_TABLE)

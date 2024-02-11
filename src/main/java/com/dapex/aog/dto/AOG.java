@@ -1,8 +1,5 @@
 package com.dapex.aog.dto;
 
-/**
- * Created by mmacpher on 12/4/18.
- */
 public class AOG {
 
     private String aog;

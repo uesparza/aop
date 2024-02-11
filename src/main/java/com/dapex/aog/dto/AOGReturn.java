@@ -3,9 +3,6 @@ package com.dapex.aog.dto;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mmacpher on 12/6/18.
- */
 public class AOGReturn {
 
     private List<ReturnChapter> results;
